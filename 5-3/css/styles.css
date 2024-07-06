@@ -2,6 +2,14 @@
   padding: 24px;
   background-color: blanchedalmond;
   display: flex;
+  gap: 24px;
+  justify-content: space-between;
+  height: 350px;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+  /* justify-content: space-evenly; */
 }
 
 .child {
@@ -9,6 +17,4 @@
   background: rgb(178, 228, 229);
   padding: 24px;
   font-size: 18px;
-  margin: 10px 0;
-  /* flex-grow: 1; */
 }
